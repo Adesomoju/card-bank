@@ -1,0 +1,17 @@
+<div class="form-div">
+    <div class="input-group">
+        <label class="input-lab">Enter Card number</label>
+        <input class="input-space" type="number" [(ngModel)]="card_num" >
+    </div>
+    <div class="input-group">
+        <label class="input-lab">Expiring Month</label>
+        <input class="input-space" type="number" [(ngModel)]="card_month" >
+    </div>
+    <div class="input-group">
+        <label class="input-lab">Expiring Year</label>
+        <input class="input-space" type="number" [(ngModel)]="card_year" >
+    </div>
+    <button class="btn" (click)="onSubmit()">Submit</button>
+</div>
+
+<div>{{card_num}}</div>

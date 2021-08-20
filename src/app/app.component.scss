@@ -1,0 +1,25 @@
+.split{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    padding: 40px;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.mt-9{
+    margin-top: 9%;
+}
+
+
+@media only screen and (max-width:600px){
+    .split{
+        flex-direction: column;
+        padding: 3%;
+    }
+    .w-50{
+        width: 100%;
+    }
+}
